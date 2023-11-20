@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #4a74a2;
+}
+
+.calendario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.adicionar-aniversario {
+    background-color: #7ea76d;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.meses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.mes {
+    background-color: #e1d4d4;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
